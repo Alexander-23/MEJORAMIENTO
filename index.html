@@ -1,81 +1,45 @@
-<html>
+	<html>
 <head>
-<title> </title>
+<center>
+<title>Validar si la contraseña y la repetición de la contraseña son iguales</title>
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+     
 
-
-<link rel="stylesheet"
-type="text/css"
-href="styles.css"
-/>
+    if (clave1 == "Dylan" && clave2 == "gil"){
+       alert("Los Datos Coinciden...\n Bienvenido");
+        var href =  "dos.html";
+        window.location=href;
+         }
+       
+    else{
+       alert("Las dos claves son distintas...\nIntentelo nuevamente.");
+        var href =  "index.html";
+        window.location=href;
+    };
+       
+}  
+</script>
 </head>
+<body bgcolor="yellow">
+
 <body>
-<body background="imagenes/fondo13.jpg">
-<header>
-<FONT COLOR="Brown">Bienvenidos ala tienda Online mas Segura de la Red DELUX
-</header><br></FONT>
-<a
-href="dos.html" class="greenlink">
-📦Producto y buena calidad
-</a>
-&nbsp;
-<a
-href="aboutme.html" class="greenlink">
-*** Tienda Online ***
-</a>
-&nbsp; &nbsp;
-<a
-href="contact.html" class="greenlink">
-☎️Comunicate
-</a>
-&nbsp; &nbsp;
-<a
-href="vision.html" class="greenlink">
-💼Vicion and Mision
-</a>
-&nbsp; &nbsp;
-<a
-href="registro.html" class="greenlink">
-📝Subscripcion
-</a>
-&nbsp; &nbsp;
 
-</hr>
-<div class="container">
-<h1> <FONT COLOR="black">La mejor tecnologia</FONT></h1>
+<h1>Validar si la contraseña y la repetición de la contraseña son iguales</h1>
+<br>
+Escribe una supuesta contraseña dos veces, una en cada campo, y pulsa el botón.
 
-<img
-src="imagenes/nom.jpg"
-width="100%"/>
+<br>
+<form action="" name="f1">
+Contraseña: <input type="password" name="clave1" size="20">
+<br>
+Repite contraseña: <input type="password" name="clave2" size="20">
+<br>
+<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
 
-<div class="row">
-<div class="col-md-3 thin_border">
-<FONT COLOR="black">
-<br><br>
-</FONT>
-</div>
-<div class="col-md-9 thin_border">
-<br><br>
-<FONT COLOR="Brown">Computadoras</FONT>
-</div>
-</div>
-</div>
-<FOOTER> puedes ordenar tus pedidos y nosotros te lo llevamos</FOOTER>
-<img
-src="imagenes/computadora.jpg"
-width="25%"/>
-
-<img
-src="imagenes/computadora1.jpg"
-width="25%"/>
-
-<img
-src="imagenes/nom1.jpg"
-width="25%"/>
-
-<img
-src="imagenes/nom2.jpg"
-width="20%"/>
+</form>
 
 </body>
-
-</html>
+</html>g

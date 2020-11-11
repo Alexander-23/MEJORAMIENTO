@@ -1,47 +1,50 @@
-	<html>
-<head>
-<center>
-<title>Validar si la contraseña y la repeticion de la contraseña son iguales</title>
-<BODY background ="tarea.jpg">
-<script>
-function comprobarClave(){
-clave1=document.f1.clave1.value
-clave2=document.f1.clave2.value
+<html>
+	<head>
+		<title>Esta es mi pagina web</title>
 
 
-if (clave1 == "Dylan" && clave2 == "gil"){
-alert("Los datos coinciden...\n Bienvenido");
-var href = "dos.html";
-window.location=href;
-}
+	
+//*<link rel="stylesheet"
+		  type="text/css"
+		  href="bootstrap.css"
+	      />
+	<link rel="stylesheet"
+		  type="text/css"
+		  href="styles.css"
+	      />*//	
+	</head>
+        <body bgcolor="yellow">
+	<body>
+		<a 
+		href="dos.html">
+			Historia
+		</a>
+		 &nbsp;
+		<a 
+		href="aboutme.html">
+			About me 
+		</a>
+		&nbsp;
+		<a 
+		href="contact.html">
+			Contact me 
+		</a>
 
-else{
-alert("Las dos claves son distintas...\n Intentelo nuevamente.");
-var href = "index.html";
-window.location=href;
-};
+		<a 
+		href="registrocliente.html">
+			Registrar Cliente
+		</a>
 
-}
-</script>
-</head>
 
-<body bgcolor="#0080FF">
-<CENTER><H1> <Comandos b&aacute;sicos
-<H2> ¡Sea Bienvenido!</H2>
+		<hr></hr>
+	<div class="container">
+		<h1>Esta es mi pagina web</h1><br>
+		<h1>Es un centro educativo privado, insignia en la educación responsable de jóvenes que se promuevan competentes según los estándares nacionales e internacionales a través del ejercicio profesional de una formación significativa.</h1><br>
 
-<br>
-<FONT COLOR="#F7FE2E"><h2>Porfavor ingrese su Contraseña...
-</header><br></FONT>
-<p>
-<br>
-<form action = "" name = "f1">
-Contraseña:<input type="password" name="clave1" size="20">
-<p>
-repita contraseña:<input type="password" name="clave2" size="20">
-<p>
-<br>
-<input type="button" value="ingresar" onclick="comprobarClave()">
-</center>
-</form>
-</body>
+	</div>
+
+	</body>
+</html>
+
+
 </html>
